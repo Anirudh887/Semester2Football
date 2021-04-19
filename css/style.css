@@ -1,0 +1,83 @@
+/* || general styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+
+h1,h2,h3,h4,h5{
+  font-family: 'Capriola', 'Arial', sans-serif;
+}
+
+body{
+    font-family: 'Poppins', 'Arial', sans-serif;
+    line-height: 1;
+    /* background-color: #ffb1a4; */
+    background-color: #303950;
+}
+
+.mainHeading{
+  color: white;
+}
+
+.charts{
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+.Matchday{
+  float: right;
+}
+.standingsoverflow{
+  height: 700px; 
+  overflow: scroll;
+}
+
+#standingschartdiv {
+  width: 100%;
+  height: 2000px;
+}
+
+#pchartdiv1, #pchartdiv2,#pchartdiv3{
+  width: 100%;
+  height: 500px;
+}
+
+#scorerchartdiv{
+  width: 100%;
+  height: 500px;
+}
+
+.mainHeading{
+  text-align: center;
+}
+
+.high{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.pchartsdiv{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.vid{
+  width:200px;
+  height: 160px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #B1A4FF  ;
+  color: white;
+  text-align: center;
+}
+
+.btndiv{
+  text-align: center;
+  margin-top: 100px;
+}
